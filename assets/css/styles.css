@@ -284,14 +284,15 @@ header {
   display: block;
   height: auto;
   width: auto;
-  background-color: #222222;
   background: no-repeat center center;
+  background-color: #222222;
   background-attachment: scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
   padding: 100px 0;
+  background-image: url('../img/bg-header.jpg');
 }
 header .intro-content {
   color: white;
@@ -1616,6 +1617,21 @@ width:100%;
   background-color: #222222;
   padding: 30px 0px;
   text-align: center;
+}
+/* ==========================================================================
+   Portfolio Modal 5 - landing pages
+   ========================================================================== */
+/* */
+.bg-lp-design {
+  background: #b3bec1;
+  color: #000;
+}
+.lp-design-responsive-img {
+  max-width: 800px;
+  padding-top: 30px;
+}
+.bg-lp-design p, .bg-lp-design h2 {
+  color: #000;
 }
 /* ==========================================================================
    Contact me
