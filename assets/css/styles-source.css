@@ -809,7 +809,8 @@ aside.cta-quote span.quote {
 }
 .portfolio-modal .modal-content h2 {
   margin: 0;
-  font-size: 46px;
+  font-size: 3.2rem;
+  line-height: 130%;
 }
 .portfolio-modal .modal-content img {
   margin: 0px auto;
@@ -1239,6 +1240,7 @@ body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
 }
 .img-responsive {
     width: 100%;
+    max-width: 1024px;
 }
 .media-content-box {
     max-width:1000px;
@@ -1517,6 +1519,17 @@ width:100%;
   padding-top: 30px;
 }
 .bg-lp-design p, .bg-lp-design h2 {
+  color: #000;
+}
+/* ==========================================================================
+   Portfolio Modal 6 - social media assets
+   ========================================================================== */
+/* */
+.bg-social-media-design {
+  background: #c0c7d5;
+  color: #000;
+}
+.bg-social-media-design p, .bg-social-media-design h2 {
   color: #000;
 }
 /* ==========================================================================
